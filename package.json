@@ -1,0 +1,22 @@
+{
+  "name": "mockon",
+  "version": "0.0.1",
+  "description": "Mock Server with data persistency based on MockJS and NeDB",
+  "main": "src/index.ts",
+  "repository": "https://github.com/ivrusson/mockon.git",
+  "author": "ivrusson <ivrusson@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "mockjs": "^1.1.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.9",
+    "@types/node": "^16.11.6",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14",
+    "typescript": "^4.4.4"
+  }
+}
