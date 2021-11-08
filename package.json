@@ -7,6 +7,10 @@
   "author": "ivrusson <ivrusson@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
+  "scripts": {
+    "start": "nodemon",
+    "compile": "tsc && node ./dist/index.js"
+  },
   "dependencies": {
     "@hapi/hapi": "^20.2.1",
     "mockjs": "^1.1.0",
@@ -17,6 +21,7 @@
     "@types/node": "^16.11.6",
     "dotenv": "^10.0.0",
     "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   }
 }
